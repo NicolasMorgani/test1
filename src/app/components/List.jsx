@@ -2,10 +2,10 @@ import { obtenerDatos } from "../lib/api"
 
 
 async function List() { 
-     const data = await obtenerDatos()
+     const data = await obtenerDatos("argentina")
      console.log(data)
   return (
-    <div className="container">
+    <div >
 
         <h1>Lista de datos</h1>
         <ul>
